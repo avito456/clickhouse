@@ -89,8 +89,9 @@ volumes:
 | CollectedFactor | коэффициент количества элементов, которые могут быть помещены в очередь записи. Предельное количество элементов равно Portion * CollectedFactor. По умолчанию - 2 |
 | ReadingTimeout | таймаут сброса данных при достижении конца файла (в секундах). По умолчанию - 1 сек. |
 | LoadArchive | Специальный параметр, предназначенный для первоначальной загрузки архивных данных. При установке параметра в true, отключается "live" режим и не выполняется запрос последнего обработанного файла из БД |
-ClickHouse:
 
+#### ♨️ **ClickHouse:**
+```yaml
 "ConnectionStrings": {
     "Default": "Host=localhost;Port=8123;Username=default;password=;Database=database_name;"
   }
