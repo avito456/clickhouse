@@ -4,7 +4,7 @@
 [📍 Репозиторий Clickhouse Yandex:](https://hub.docker.com/r/yandex/clickhouse-server)
 [📍 Репозиторий с исходниками:](https://github.com/EvilBeaver/CllickHousePlayground)
 
-1. **Установка andex Clickhouse + WEB интерфейс в Docker**
+## 1. Установка andex Clickhouse + WEB интерфейс в Docker
 
 ```yaml
 version: "3.3"
