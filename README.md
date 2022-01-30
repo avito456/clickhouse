@@ -7,7 +7,7 @@
 [📍 Репозиторий Clickhouse Yandex:](https://hub.docker.com/r/yandex/clickhouse-server)
 [📍 Репозиторий с исходниками:](https://github.com/EvilBeaver/CllickHousePlayground)
 
-```json
+```yaml
 version: "3.3"
 services:
   clickhouse:
