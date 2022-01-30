@@ -4,6 +4,7 @@
 * 📍 Андрей Овсянкин. [Репозиторий с исходниками EvilBeaver/CllickHousePlayground](https://github.com/EvilBeaver/CllickHousePlayground)
 * 📍 Евгений Акпаев. [Репозиторий Exporter (Евakpaevj/OneSTools.EventLog)](https://github.com/akpaevj/OneSTools.EventLog)
 * 📍 [Репозиторий Clickhouse Yandex](https://hub.docker.com/r/yandex/clickhouse-server)
+* 📍 [ODBC драйвер ClickHouse](https://github.com/ClickHouse/clickhouse-odbc)
 
 ## 🔴 1. Установка andex Clickhouse + WEB интерфейс в Docker
 
