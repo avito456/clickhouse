@@ -7,6 +7,7 @@
 * 📍 Евгений Акпаев.  [Репозиторий Exporter (Евakpaevj/OneSTools.EventLog)](https://github.com/akpaevj/OneSTools.EventLog)
 * 📍 [Репозиторий Clickhouse Yandex](https://hub.docker.com/r/yandex/clickhouse-server)
 * 📍 [ODBC драйвер ClickHouse](https://github.com/ClickHouse/clickhouse-odbc)
+* 📍 [runtime .net 5](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
 
 **Инструкция по установке:**
 
