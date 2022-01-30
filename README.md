@@ -63,5 +63,18 @@ volumes:
 | **Mask** | Регулярное выражение, применяемое к имени информационной базы |
 | **Template** | Шаблон имени базы данных хранения логов журнала. Обязательно должен содержать в себе переменную [IBNAME] |
 
+#### ♨️ **Exporter**
+```yaml
+"Exporter": {
+    "StorageType": 2,
+    "LogFolder": "C:\\Users\\akpaev.e.ENTERPRISE\\Desktop\\1Cv8Log",
+    "Portion": 10000,
+    "TimeZone": "Europe/Moscow",
+    "WritingMaxDegreeOfParallelism": 8,
+    "CollectedFactor": 8,
+    "ReadingTimeout": 1,
+    "LoadArchive": false
+  }
+```
 
 
