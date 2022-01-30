@@ -95,6 +95,8 @@ volumes:
 "ConnectionStrings": {
     "Default": "Host=localhost;Port=8123;Username=default;password=;Database=database_name;"
   }
+```  
+
 По умолчанию:
 Username = 'default'
 Password = ''
