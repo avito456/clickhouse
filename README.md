@@ -35,7 +35,7 @@ volumes:
 
 ## 🔴 2. Установка 
 
-[Скачиваем дистрибутив](https://github.com/akpaevj/OneSTools.EventLog/releases)
+Скачиваем дистрибутив [(akpaevj/OneSTools.EventLog)](https://github.com/akpaevj/OneSTools.EventLog/releases)
 
 
 
