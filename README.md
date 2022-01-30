@@ -63,7 +63,7 @@ volumes:
 | **Mask** | Регулярное выражение, применяемое к имени информационной базы |
 | **Template** | Шаблон имени базы данных хранения логов журнала. Обязательно должен содержать в себе переменную [IBNAME] |
 
-#### ♨️ **Exporter**
+#### ♨️ **Секция Exporter**
 ```yaml
 "Exporter": {
     "StorageType": 1,
@@ -107,7 +107,7 @@ sc start EventLogExporter
 
 
 
-#### ♨️ **ClickHouse:**
+#### ♨️ **Секция ClickHouse:**
 ```yaml
 "ConnectionStrings": {
     "Default": "Host=localhost;Port=8123;Username=default;password=;Database=database_name;"
