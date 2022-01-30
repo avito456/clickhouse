@@ -66,7 +66,7 @@ volumes:
 #### ♨️ **Exporter**
 ```yaml
 "Exporter": {
-    "StorageType": 2,
+    "StorageType": 1,
     "LogFolder": "C:\\Users\\akpaev.e.ENTERPRISE\\Desktop\\1Cv8Log",
     "Portion": 10000,
     "TimeZone": "Europe/Moscow",
@@ -90,6 +90,23 @@ volumes:
 | ReadingTimeout | таймаут сброса данных при достижении конца файла (в секундах). По умолчанию - 1 сек. |
 | LoadArchive | Специальный параметр, предназначенный для первоначальной загрузки архивных данных. При установке параметра в true, отключается "live" режим и не выполняется запрос последнего обработанного файла из БД |
 
+#### Использование:
+Все приложения могут быть запущены в 2 режимах: как обычное приложение, либо как служба Windows/Linux. Для теста в Вашей среде, достаточно просто выполнить конфигурацию приложения в файле *appsettings.json*, установить **runtime .net 5** (при его отсутствии) и запустить exe/dll. Базы данных в СУБД вручную создавать не нужно, они будут созданы автоматически.
+
+Для запуска приложения как службы необходимо (название службы и путь к исполняемому файлу подставить свои):</br>
+
+**Windows:**</br>
+Поместить файлы приложения в каталог и выполнить в консоли команду:
+```
+sc create EventLogExporter binPath= "C:\elexporter\EventLogExporter.exe"
+```
+и запустить службу командой:
+```
+sc start EventLogExporter
+```
+
+
+
 #### ♨️ **ClickHouse:**
 ```yaml
 "ConnectionStrings": {
@@ -97,6 +114,16 @@ volumes:
   }
 ```  
 
-По умолчанию:
-Username = 'default'
-Password = ''
+По умолчанию: Username = 'default' и Password = ''
+
+Подключиться к web  сервису можно по адресу:
+http://localhost:8123
+
+
+
+
+
+
+
+
+[ODBC драйвер ClickHouse](https://github.com/ClickHouse/clickhouse-odbc)
