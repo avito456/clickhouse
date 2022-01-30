@@ -1,8 +1,9 @@
 # Выгрузка журнала регистрации 1С в Yandex Clickhouse
 
 [📍 см. Сверхбыстрый Журнал Регистрации 1C с помощью Yandex Clickhouse](https://youtu.be/HnZ0Of-YpW0)
-[📍 Репозиторий Clickhouse Yandex:](https://hub.docker.com/r/yandex/clickhouse-server)
-[📍 Репозиторий с исходниками:](https://github.com/EvilBeaver/CllickHousePlayground)
+[📍 akpaevj/OneSTools.EventLog](https://github.com/akpaevj/OneSTools.EventLog)
+[📍 Репозиторий с исходниками EvilBeaver/CllickHousePlayground](https://github.com/EvilBeaver/CllickHousePlayground)
+[📍 Репозиторий Clickhouse Yandex](https://hub.docker.com/r/yandex/clickhouse-server)
 
 ## 🔴 1. Установка andex Clickhouse + WEB интерфейс в Docker
 
@@ -32,8 +33,10 @@ volumes:
   clickhouse-data:      
 ```
 
+## 🔴 2. Установка 
+
+[Скачиваем дистрибутив](https://github.com/akpaevj/OneSTools.EventLog/releases)
 
 
 
 
-https://github.com/akpaevj/OneSTools.EventLog
